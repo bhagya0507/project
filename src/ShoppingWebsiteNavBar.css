@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+html,body
+{
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: rgb(232, 230, 230);
+    /* position: absolute; */
+    height: fit-content;
+    /* overflow: hidden;    */
+}
+
+
+/* & Nave Bar Starts */
+.navbar{
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.navbar-section{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+    justify-content: space-between;justify-content: space-between;
+    box-sizing: border-box;
+    max-width: var(--lg-max-width);
+
+}
+
+.navbar-section-logo-search-div{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-section-logo-div{
+    width: 25%;
+    margin-right: 20px;
+}
+
+.navbar-section-search-div{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(219, 231, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+#search-button{
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    border: none;
+    color: rgb(117, 117, 117);
+}
+
+#search-input{
+    height: 35px;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+
+.navbar-section-login-cart-seller-dots{
+    width: 45%;
+}
+
+.navbar-section-login-cart-seller-dots ul{
+    margin-left: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-section-login-cart-seller-dots ul li div{
+    height: 40px;
+    border-radius: 8px;
+    padding: 4px;
+    /* width: 130px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.navbar-section-login-cart-seller-dots ul li div i{
+    font-size: 20px;
+}
+
+.navbar-section-login-cart-seller-dots ul li div h4{
+    font-weight: 450;
+    font-size: 17px;
+}
+
+#Login{
+    width: 108px;
+    padding: 8px;
+    transition: all 0.4s ease-in-out;
+}
+
+#Login button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.drop-btn{
+    margin-left: -5px;
+}
+
+#Login:hover{
+    background-color: blue;
+    color: #fff;
+}
+#Login:hover button{
+    color: #fff;
+}
+
+#Login:hover .drop-btn{
+    transform: rotate(180deg);
+    transition: all ease 0.5s;
+}
+
+#three-dots{
+    margin-right: 20px;
+}
+
+/* ~ dropdown div starts */
+
+#drop-down-box{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 60px;
+    left: 715px;
+    background-color: #fff;
+    height: fit-content;
+    width: 250px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 7px -1px black;
+    display: none;
+    z-index: 99;
+}
+
+#drop-down-first-box{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#drop-down-first-box-right{
+    color: #2874f0;
+}
+
+#drop-down-second-box{
+    padding: 20px;
+}
+
+#drop-down-second-box ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#drop-down-second-box ul li{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+#drop-down-second-box ul li h4{
+    font-weight: 400;
+    margin-left: 8px;
+}

@@ -1,0 +1,66 @@
+.component-constainer{
+    position: absolute;
+    top: 215px;
+    background-color: white;
+    width: 170px;
+    transition: all ease 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 10px; */
+    cursor: pointer;
+    z-index: 2;
+}
+
+#component-constainer-1{
+    border: 1px gray solid;
+    position: absolute;
+    /* top: 160px; */
+    top: 215px;
+    left: 50px;
+}
+
+#component-constainer-2{
+    border: 1px gray solid;
+    position: absolute;
+    top: 215px;
+    left: 250px;
+}
+
+#component-constainer-3{
+    border: 1px gray solid;
+    position: absolute;
+    top: 215px;
+    left: 495px;
+}
+
+#component-constainer-4{
+    border: 1px gray solid;
+    position: absolute;
+    top: 215px;
+    left: 775px;
+}
+
+#component-constainer-5{
+    border: 1px gray solid;
+    position: absolute;
+    top: 215px;
+    left: 1065px;
+}
+
+#category{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+
+#category h5{
+    font-weight: 600;
+}
+
+#category button{
+    background-color: transparent;
+    border: none;
+}
+

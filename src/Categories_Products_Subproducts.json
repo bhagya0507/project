@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "product": "Fashion",
+      "image" : "https://rukminim1.flixcart.com/fk-p-flap/96/96/image/0d75b34f7d8fbcb3.png?q=100",
+      "categories": [
+        {
+          "id": 1,
+          "category": "Clothing",
+          "subcategories": ["Men's Casual Shirt", "Men's Formal Shirt", "Men's T-Shirt", "Women's Dress", "Women's Skirt", "Kids' Jeans"]
+        },
+        {
+          "id": 2,
+          "category": "Footwear",
+          "subcategories": ["Men's Shoes", "Women's Shoes", "Kids' Shoes"]
+        },
+        {
+          "id": 3,
+          "category": "Accessories",
+          "subcategories": ["Bags", "Watches", "Jewelry"]
+        },
+        {
+          "id": 4,
+          "category": "Sportswear",
+          "subcategories": ["Men's Sportswear", "Women's Sportswear", "Kids' Sportswear"]
+        },
+        {
+          "id": 5,
+          "category": "Outerwear",
+          "subcategories": ["Jackets", "Coats", "Sweaters"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "product": "Electronics",
+      "image" : "https://rukminim1.flixcart.com/flap/96/96/image/69c6589653afdb9a.png?q=100",
+      "categories": [
+        {
+          "id": 6,
+          "category": "Mobiles & Accessories",
+          "subcategories": ["Smartphones", "Power Banks", "Cases & Covers"]
+        },
+        {
+          "id": 7,
+          "category": "Computers & Accessories",
+          "subcategories": ["Laptops", "Keyboards", "Mouse"]
+        },
+        {
+          "id": 8,
+          "category": "Home Appliances",
+          "subcategories": ["Refrigerators", "Washing Machines", "Air Conditioners"]
+        },
+        {
+          "id": 9,
+          "category": "Cameras & Accessories",
+          "subcategories": ["DSLR Cameras", "Tripods", "Memory Cards"]
+        },
+        {
+          "id": 10,
+          "category": "Audio & Video",
+          "subcategories": ["Headphones", "Speakers", "Televisions"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "product": "Home & Furniture",
+      "image" : "https://rukminim1.flixcart.com/flap/96/96/image/ab7e2b022a4587dd.jpg?q=100",
+      "categories": [
+        {
+          "id": 11,
+          "category": "Furniture",
+          "subcategories": ["Sofas", "Beds", "Dining Tables"]
+        },
+        {
+          "id": 12,
+          "category": "Home Decor",
+          "subcategories": ["Lamps", "Curtains", "Wall Clocks"]
+        },
+        {
+          "id": 13,
+          "category": "Kitchen & Dining",
+          "subcategories": ["Cookware", "Dinnerware", "Kitchen Tools"]
+        },
+        {
+          "id": 14,
+          "category": "Bedding",
+          "subcategories": ["Bed Sheets", "Pillows", "Blankets"]
+        },
+        {
+          "id": 15,
+          "category": "Storage & Organization",
+          "subcategories": ["Storage Boxes", "Shoe Racks", "Clothes Racks"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "product": "Beauty & Personal Care",
+      "image" : "https://t4.ftcdn.net/jpg/00/47/30/15/360_F_47301594_mLvjoHeB4UvNvZ0zOotvrhPfqLQlIDRv.jpg",
+      "categories": [
+        {
+          "id": 16,
+          "category": "Skin Care",
+          "subcategories": ["Cleansers", "Moisturizers", "Sunscreen"]
+        },
+        {
+          "id": 17,
+          "category": "Hair Care",
+          "subcategories": ["Shampoos", "Conditioners", "Hair Oils"]
+        },
+        {
+          "id": 18,
+          "category": "Makeup",
+          "subcategories": ["Lipsticks", "Foundations", "Mascaras"]
+        },
+        {
+          "id": 19,
+          "category": "Fragrances",
+          "subcategories": ["Perfumes", "Colognes", "Body Sprays"]
+        },
+        {
+          "id": 20,
+          "category": "Personal Care Appliances",
+          "subcategories": ["Trimmers", "Hair Dryers", "Electric Shavers"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "product": "Toys & Games",
+      "image" : "https://media.istockphoto.com/id/867830532/photo/wooden-toys-on-white-background-3d-rendering.jpg?s=612x612&w=0&k=20&c=nFp5PMl2r5_nC1jjpFRTHqZOd4XnSFHlSu147x7943I=",
+      "categories": [
+        {
+          "id": 21,
+          "category": "Action Figures",
+          "subcategories": ["Superheroes", "Cartoon Characters", "Movie Characters"]
+        },
+        {
+          "id": 22,
+          "category": "Dolls & Accessories",
+          "subcategories": ["Barbie Dolls", "Dollhouses", "Doll Clothes"]
+        },
+        {
+          "id": 23,
+          "category": "Puzzles & Board Games",
+          "subcategories": ["Jigsaw Puzzles", "Board Games", "Card Games"]
+        },
+        {
+          "id": 24,
+          "category": "Outdoor Toys",
+          "subcategories": ["Bikes", "Scooters", "Swing Sets"]
+        },
+        {
+          "id": 25,
+          "category": "Educational Toys",
+          "subcategories": ["STEM Toys", "Puzzle Toys", "Building Blocks"]
+        }
+      ]
+    }
+  ]
+  
